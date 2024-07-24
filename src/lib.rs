@@ -1,5 +1,7 @@
 const EYES: &str = ":";
 
+pub fn hi(){}
+
 pub fn smile() -> String {
     format!("{}{}", EYES, ")")
 }
